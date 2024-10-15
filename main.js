@@ -20,7 +20,7 @@ exponent(5, 2);
 exponent(10, 3);  
 
 
-rolldice(4, 6);    
+function roll_dice(4, 6);    
 randInt(-12, 12);
 
 add3(num1, num2, num3)
@@ -83,7 +83,9 @@ console.log(f);
 
 
 
-function roll_dice(qty, sides)
+function roll_dice(qty, sides) {
+    return answer:
+}
 
 let sum = roll_dice(3, 6);
 console.log(sum);           // Prints maybe 7 or 14, etc
