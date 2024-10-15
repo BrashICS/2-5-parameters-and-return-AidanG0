@@ -20,8 +20,7 @@ exponent(5, 2);
 exponent(10, 3);  
 
 
-function roll_dice(4, 6);    
-randInt(-12, 12);
+
 
 add3(num1, num2, num3)
 
@@ -83,18 +82,15 @@ console.log(f);
 
 
 
-function roll_dice(qty, sides) {
-    return answer:
+
+
+
+
+function area_circle(radius) {
+let answer = 3.14159*radius**2
+return;
+console.log(answer);
 }
-
-let sum = roll_dice(3, 6);
-console.log(sum);           // Prints maybe 7 or 14, etc
-
-
-
-
-function area_circle(radius)
-
 
 
 function cylinder_volume(radius, height)
