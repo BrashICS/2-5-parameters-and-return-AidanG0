@@ -20,7 +20,7 @@ exponent(5, 2);
 exponent(10, 3);  
 
 
-rollDice(4, 6);    
+rolldice(4, 6);    
 randInt(-12, 12);
 
 add3(num1, num2, num3)
