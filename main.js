@@ -48,7 +48,6 @@ function cylinder_volume(radius, height) {
 
 /** TEST SCORE*/
 
-
 function percent(score, total) {
     let mark = score/total;
     console.log(Math.round(mark * 100) + "%");
@@ -64,3 +63,9 @@ function round(value, decimals) {
     return number;
 }
 
+
+
+
+/** DICE*/
+
+function 
