@@ -11,87 +11,56 @@
 
 'use strict';
 
-function exponent(base, exp) {
-    let answer = base**exp;
-    console.log(answer);    
+
+/** TEMPURATURE*/
+
+function to_fahrenheit(celsius) {
+    let fahrenheit = (celsius * 9/5) + 32;
+    return fahrenheit;
 }
 
-exponent(5, 2);   
-exponent(10, 3);  
 
-
-
-
-add3(num1, num2, num3)
-
-let s = Math.sqrt(16);
-console.log(s)
-
-function square(value) {
-    let answer = value**2;
-}
-
-let x = square(5);  
-console.log(x);
-
-function square(value) {
-    let answer = value**2;
-    return answer;         
-}
-
-function useless(value) {
-    let answer = value**2;
-    return;                
-    console.log(answer);  
-}
-
-function randInt(min, max) {
-    let rnd = Math.floor(Math.random() * (max - min + 1)) + min;
-    return rnd;
+function to_celsius(fahrenheit) {
+    let celsius = (fahrenheit - 32) * 5/9
+    return celsius;
 }
 
 
 
 
 
-
-Celsius = (Fahrenheit - 32) * 5/9
-Fahrenheit = (Celsius * 9/5) + 32
-
-function to_fahrenheit(celsius)
-
-
-
-
-let f = to_fahrenheit(37);  // Should not print anything
-console.log(f);             // Should print 99
-
-f = to_fahrenheit(20);
-console.log(f);             // Should print 68 
-
-
-
-function to_celsius(fahrenheit)
-
-
-let f = to_celsius(37);  
-console.log(f);             
-
-f = to_celsius(20);
-console.log(f);  
-
-
-
-
-
-
+/** CIRCLE*/
 
 function area_circle(radius) {
-let answer = 3.14159*radius**2
-return;
-console.log(answer);
+let area = Math.PI*radius**2
+return area;
 }
 
 
-function cylinder_volume(radius, height)
+function cylinder_volume(radius, height) {
+    let volume = area_circle(radius) * height;
+    return volume;
+}
+
+
+
+
+
+/** TEST SCORE*/
+
+
+function percent(score, total) {
+    let mark = score/total;
+    console.log(Math.round(mark * 100) + "%");
+    return mark;
+}
+
+
+
+/** ROUNDING*/
+
+function round(value, decimals) {
+    let number = (Math.round(value*10**decimals))/10**decimals
+    return number;
+}
 
