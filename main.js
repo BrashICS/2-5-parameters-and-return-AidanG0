@@ -68,4 +68,3 @@ function round(value, decimals) {
 
 /** DICE*/
 
-function 
